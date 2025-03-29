@@ -108,6 +108,11 @@ h4 {
     margin: 0 auto;
     text-align: right;
     font-size: 50px;
+    text-shadow: 
+    -1px -1px 0 #000,  /* 左上轮廓 */
+    1px -1px 0 #000,    /* 右上轮廓 */
+    -1px 1px 0 #000,    /* 左下轮廓 */
+    1px 1px 0 #000;     /* 右下轮廓 */	
 }
 
 #footer {
